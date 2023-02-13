@@ -1,0 +1,75 @@
+.body{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.Main{
+    text-align: center;
+    color:grey;
+    font-size: 80px;
+}
+
+#employee_button{
+    margin-right: 30px;
+    width:200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.table{
+    color:white;
+    margin:auto;
+    margin-bottom:20px;
+    margin-top:20px;
+    width:60%
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.into_div{
+    width:85%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.intro{
+    font-size: 30px;
+    font-family: calibri;
+    color:grey;
+    font-weight:100;
+}
+
+.line{
+    color:grey;
+    width:100%;
+    margin-left:0px;
+    /* height:100px */
+
+}
+.container{
+    display: flex;
+}
+
+.para{
+    color:rgb(75, 72, 72);
+    font-weight: 200;
+    margin:0px;
+}
+
+.factory{
+    height:250px;
+    width:250px;
+    margin-left: 15px;
+}
+.para1{
+    color:rgb(75, 72, 72);
+    font-weight: 200;
+    margin:0px;
+    width:99%;
+    margin-top: 10px;
+}

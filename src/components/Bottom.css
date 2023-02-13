@@ -1,0 +1,145 @@
+#footer{
+    width:100%;
+    background-color: #f1f1f1;
+    height:80%;
+    display:flex;
+    font-family: calibri;
+    margin-top: -5px;
+}
+
+#first_footer{
+    width:40%;
+    margin-left: 80px;
+    margin-top: 30px;
+    height:100%;
+}
+#second_footer{
+    margin-top: 30px;
+    margin-left: 30px;
+    width:30%;
+    height:100%;
+}
+
+#third_footer{
+    margin-left:-140px;
+}
+
+#help{
+    font-size:40px;
+    font-weight:570;
+}
+
+#main{
+    font-weight:570;
+}
+
+.button{
+    height:40px;
+    font-size: 20px;
+    font-weight:600;
+    width:37%;
+    border-color: #0c1027;
+    background-color: white;
+    border-radius: 9px;
+    transition-duration: 1s;
+}
+
+.button:hover{
+    color:red;
+    cursor: pointer;
+}
+
+.info{
+    font-size: 17px;
+    font-family: calibri;
+    margin-top:15px;
+    width:80%;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color:red;
+    cursor: pointer;
+}
+
+#contact_icons{
+    margin-top: 50px;
+    font-size: 20px;
+}
+#contact_icon{
+    margin-right: 15px;
+    color:#0c1027;
+    transition-duration: 1s;
+}
+#contact_icon:hover{
+    color:red;
+}
+.link_footer{
+    text-decoration: none;
+}
+
+#footer_image{
+    margin-top: 20px;
+}
+#bottom{
+    /* width:100%;
+    height:10%; */
+    /* text-align: center; */
+    display: flex;
+    width: 65vw;
+    margin:auto;
+    justify-content: center;
+    /* margin-right: auto; */
+}
+#whatsapp{
+    color:green;
+    font-size:20px;
+    font-weight: bold;
+}
+.whatsapp{
+    color:green;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left:10px;
+    font-weight: bold;
+}
+.whatsapp:hover{
+    color:green;
+}
+@media screen and (max-width:1200px){
+    .button{
+        font-size:15px;
+    }
+}
+@media screen and (max-width: 950px){
+    #footer{
+        text-align: left;
+        padding-left: 3%;
+    }
+    #help{
+        font-size: 30px;
+    }
+    #footer_image{
+        display: none;
+    }
+    #bottom{
+        width:100vw;
+        margin:0px;
+    }
+    #first_footer{
+        width:100%;
+        margin-left: 0px;
+    }
+    #second_footer{
+        width:100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #footer{
+        display: block;
+    }
+    .button{
+        width:50%;
+        height:50%;
+        margin-top: -10px;
+        font-size:20px;
+    }
+}
